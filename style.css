@@ -1,6 +1,6 @@
 /* Global Styles */
 :root {
-  --primary-color: #3498db;
+  --primary-color: #e28aac;
   --secondary-color: #2c3e50;
   --light-color: #ecf0f1;
   --dark-color: #2c3e50;
@@ -8,6 +8,7 @@
   --text-color: #333;
   --text-light: #777;
 }
+@import url("https://fonts.googleapis.com/css2?family=Cal+Sans&family=Kaushan+Script&display=swap");
 
 * {
   margin: 0;
@@ -20,7 +21,7 @@ html {
 }
 
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Kaushan Script", cursive;
   line-height: 1.6;
   color: var(--text-color);
   background-color: #f9f9f9;
@@ -163,14 +164,14 @@ nav {
 
 .hero-content h2 {
   font-size: 2rem;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   color: var(--text-light);
   font-weight: 400;
 }
 
 .hero-content p {
   font-size: 1.1rem;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   color: var(--text-light);
 }
 
@@ -180,7 +181,7 @@ nav {
 }
 
 .hero-image img {
-  max-width: 100%;
+  max-width: 85%;
   border-radius: 10px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
@@ -197,7 +198,8 @@ nav {
 }
 
 .about-image img {
-  width: 100%;
+  margin-left: 25px;
+  width: 85%;
   border-radius: 10px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
@@ -265,23 +267,23 @@ nav {
 }
 
 .progress.html {
-  width: 95%;
+  width: 50%;
 }
 
 .progress.css {
-  width: 90%;
+  width: 40%;
 }
 
 .progress.js {
-  width: 85%;
+  width: 15%;
 }
 
-.progress.react {
-  width: 80%;
+/*.progress.react {
+  width: 0%;
 }
 
 .progress.node {
-  width: 75%;
+  width: 0%;
 }
 
 /* Projects Section */
@@ -365,6 +367,7 @@ nav {
 
 .social-links {
   margin-top: 30px;
+  margin-left: 40px;
 }
 
 .social-links a {
